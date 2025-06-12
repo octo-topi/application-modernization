@@ -4,6 +4,9 @@ caption Draft
 title Application modernization
 
 +[#Orange] Modernization
+-- System thinking
+---_ Website : [[https://web.archive.org/web/20230923142459/https://www.systems-thinking.org/theWay/theWay.htm Systems thinking]]
+---_ Book : [[https://verraes.net/2013/08/john-gall-systemantics-the-systems-bible/ Systems Bible]]
 -- Problems
 --- Obsolescence
 ----_ Unmaintained technologies
@@ -27,23 +30,53 @@ title Application modernization
 -----_ High TTM
 -----_ High default rate
 ++ Solutions
-+++ System matters
-++++_ Application (code)
-++++_ Team
-++++_ IT Department
-+++ Embrace change
-++ Tasks
++++ Scope
+++++_ On essential complexity
+++++_ On core business
++++ Practices
+++++ Remodularization
+++++ Application design
++++++ Tactical DDD
++++++ Hexagonal architecture
+++++ Development practices \n (to fix legacy)
++++++_ Automated tests
++++++_ TDD
++++++_ Refactoring
++++++ Change patterns
+++++++ Strangler
+++++++ Seam Model 
++++++++_ Book: [[https://understandlegacycode.com/blog/key-points-of-working-effectively-with-legacy-code/ Working effectively with legacy]] 
+++++++ Characterization test
++++ System organization
+++++ Intervention points
++++++_ Application (code)
++++++_ Team
++++++_ IT Department
++++++_ Business
+++++ Take strategic decisions
++++++_ Move to off-the-shelf solution
++++++_ Outsource
++++++_ Buy a specialized company
++++++_ Do in-house
++++++ Tactical DDD
+++++ Improve process and workflow
++++++_ Book: [[ https://itrevolution.com/product/accelerate/ Accelerate ]]
++++++_ Book: [[ https://teamtopologies.com/ Teams topologies]]
+++ Our services
++++ Audit & DueDil
++++ Request for proposal (AO)
 +++ Consulting
-++++_ Off-the-shelf solution
-++++_ Outsource
-++++_ Buy a specialized company
-++++ Do in-house
-+++++ DDD
-++++++_ On essential complexity
-++++++_ On core business
+++++ Advice on strategic decisions
+++++ Event storming
++++++_ Coaching
++++ Training
+++++_ [[ https://www.octo.academy/catalogue/formation/tdd02-test-driven-development-sur-du-code-legacy/ Legacy - TDD02]]
+++++_ [[ https://www.octo.academy/catalogue/formation/tdd02-test-driven-development-sur-du-code-legacy/ Legacy - DDD01]]
 +++ Delivery
-++++_ Contracting
-++++_ Coaching
+++++ Coaching
+++++ Technical Leading
+++++ Development
+++++ OPS
 @endmindmap
 
 
