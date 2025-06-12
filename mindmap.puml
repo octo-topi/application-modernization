@@ -10,13 +10,20 @@ title Application modernization
 ----_ Unsupported technologies
 ----_ Rarefaction of skilled developers
 --- Legacy
----- Same as brownfield ?
+---- All brownfields are not legacies
 -----_ BONO [[https://blog.octo.com/le-brownfield-n'est-pas-du-code-legacy blog post]]
 ---- Causes
+----- Endemic Technical debt
+------ Accidental complexity
+------ Conflicting heuristics 
+-------_ Wrong choices in the initial context
+-------_ Context has changed but no remediation
+-------_ CTH [[https://blog.octo.com/en-finir-avec-la-dette-technique blog post]]
+------ Strategic is not a problem
 -----_ Core business and complexity
 -----_ Long-lived codebase => Huge codebase
 -----_ No automated tests (Feathers)
----- Symptoms
+---- Symptoms = change is painful
 -----_ High TTM
 -----_ High default rate
 ++ Solutions
@@ -25,13 +32,15 @@ title Application modernization
 ++++_ Team
 ++++_ IT Department
 +++ Embrace change
-++++_ High TTM
-++++_ High default rate
 ++ Tasks
 +++ Consulting
 ++++_ Off-the-shelf solution
-++++_ Buy
-++++_ Do in-house
+++++_ Outsource
+++++_ Buy a specialized company
+++++ Do in-house
++++++ DDD
+++++++_ On essential complexity
+++++++_ On core business
 +++ Delivery
 ++++_ Contracting
 ++++_ Coaching
