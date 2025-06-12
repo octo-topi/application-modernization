@@ -1,14 +1,40 @@
 @startmindmap
+
 caption Draft
 title Application modernization
 
 +[#Orange] Modernization
-++ Legacy
-+++_ No automated tests
-+++_ Long-lived codebase
--- Embrace change
----_ High TTM
----_ High default rate
+-- Problems
+--- Obsolescence
+----_ Unmaintained technologies
+----_ Unsupported technologies
+----_ Rarefaction of skilled developers
+--- Legacy
+---- Same as brownfield ?
+-----_ BONO [[https://blog.octo.com/le-brownfield-n'est-pas-du-code-legacy blog post]]
+---- Causes
+-----_ Core business and complexity
+-----_ Long-lived codebase => Huge codebase
+-----_ No automated tests (Feathers)
+---- Symptoms
+-----_ High TTM
+-----_ High default rate
+++ Solutions
++++ System matters
+++++_ Application (code)
+++++_ Team
+++++_ IT Department
++++ Embrace change
+++++_ High TTM
+++++_ High default rate
+++ Tasks
++++ Consulting
+++++_ Off-the-shelf solution
+++++_ Buy
+++++_ Do in-house
++++ Delivery
+++++_ Contracting
+++++_ Coaching
 @endmindmap
 
 
