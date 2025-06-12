@@ -1,0 +1,1 @@
+[PlantUML's mindmap syntax](https://plantuml.com/fr-dark/mindmap-diagram)
