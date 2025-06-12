@@ -1,10 +1,14 @@
 @startmindmap
-+ Modernization
+caption Draft
+title Application modernization
+
++[#Orange] Modernization
 ++ Legacy
-+++ No automated tests
-+++ Long-lived codebase
++++_ No automated tests
++++_ Long-lived codebase
 -- Embrace change
---- High TTM
---- High default rate
+---_ High TTM
+---_ High default rate
 @endmindmap
+
 
