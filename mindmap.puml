@@ -13,8 +13,13 @@ title Application modernization
 ----_ Unsupported technologies
 ----_ Rarefaction of skilled developers
 --- Legacy
+' il nous faudrait au moins un article qui vient de nous, à rediscuter ensemble (ça peut m'intéresser)
+---- Défier l’entropie : Refaire ou remettre sous contrôle ?
+-----_ ALJE [[https://blog.octo.com/la-duck-conf-2024-defier-l'entropie--refaire-ou-remettre-sous-controle blog post]]
 ---- All brownfields are not legacies
 -----_ BONO [[https://blog.octo.com/le-brownfield-n'est-pas-du-code-legacy blog post]]
+---- Comment l’IA générative peut-elle moderniser efficacement vos SI Brownfield ?
+-----_ KLEI [[https://blog.octo.com/compte-rendu-le-comptoir-octo-comment-l'ia-generative-peut-elle-moderniser-efficacement-vos-si-brownfield blog post]]
 ---- Causes
 ----- Endemic Technical debt
 ------ Accidental complexity
@@ -38,6 +43,7 @@ title Application modernization
 ++++ Application design
 +++++ Tactical DDD
 +++++ Hexagonal architecture
++++++ Clean architecture
 ++++ Development practices \n (to fix legacy)
 +++++_ Automated tests
 +++++_ TDD
@@ -71,7 +77,8 @@ title Application modernization
 +++++_ Coaching
 +++ Training
 ++++_ [[ https://www.octo.academy/catalogue/formation/tdd02-test-driven-development-sur-du-code-legacy/ Legacy - TDD02]]
-++++_ [[ https://www.octo.academy/catalogue/formation/tdd02-test-driven-development-sur-du-code-legacy/ Legacy - DDD01]]
+++++_ [[ https://www.octo.academy/catalogue/formation/ddd01-ddd-domain-driven-design/ Legacy - DDD01]]
+++++_ [[ https://www.octo.academy/catalogue/formation/techl-pratiques-de-tech-leading-en-contexte-agile/ Legacy - TECHL]]
 +++ Delivery
 ++++ Coaching
 ++++ Technical Leading
