@@ -46,6 +46,7 @@ title Application modernization
 ++++++ Strangler
 ++++++ Seam Model 
 +++++++_ Book: [[https://understandlegacycode.com/blog/key-points-of-working-effectively-with-legacy-code/ Working effectively with legacy]] 
+++++++_ Nick Tune: [[https://legacy-modernization.io/patterns/ Patterns]]
 ++++++ Characterization test
 +++ System organization
 ++++ Intervention points
